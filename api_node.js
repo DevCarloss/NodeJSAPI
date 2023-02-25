@@ -7,6 +7,7 @@ console.log('Base Api NodeJS Criado Por CarlosDev')
 
 app.get('/', (req,res) => {
     res.send('Forbidden')
+    res.status(404)
         
 })
 
